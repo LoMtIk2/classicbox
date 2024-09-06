@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClassicBox - Garry's Mod Server</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #001014;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        @media only screen and (max-width: 1000px) {
+            .footer-buttons {
+                transform: scale(0.7);
+                box-sizing: border-box;
+            }
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.5em;
+            margin-bottom: 40px;
+            max-width: 600px;
+        }
+
+        .content {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .main-button {
+            padding: 15px 30px;
+            font-size: 1.5em;
+            color: white;
+            background-color: transparent;
+            border: 2px solid #ff0d0d;
+            border-radius: 15px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .main-button:hover {
+            background-color: #ff0d0d;
+            box-shadow: 0px 0px 10px 1px #bf0000;
+            transform: scale(1.05);
+        }
+
+        .footer-buttons {
+            bottom: 20px;
+            display: flex;
+            position: absolute;
+            align-items: end;
+            margin-top: 40px;
+        }
+
+        .footer-button {
+            display: flex;
+            padding: 15px 15px;
+            margin: 0 10px;
+            font-size: 1em;
+            color: rgb(255, 255, 255);
+            font-weight: bolder;
+            background-color: transparent;
+            border: 2px solid #ff0d0d;
+            justify-content: center;
+            max-height: 30px;
+            width: 160px;
+            align-items: center;
+            text-align: center;
+            border-radius: 20px;
+            text-decoration: none;
+            height: auto;
+            transition: all 0.3s ease;
+        }
+
+        .discord-button {
+            display: flex;
+            padding: 15px 15px;
+            height: 70px;
+            color: white;
+            border: 2px solid #3f51b5;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border-radius: 65px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .discord-button:hover {
+            border-radius: 30px;
+            background-color: #303f9f;
+            box-shadow: 0px 0px 10px 1px #3f51b5;
+            /* transform: scale(1.05); */
+        }
+
+        .footer-button:hover {
+            background-color: #ff0d0d;
+            box-shadow: 0px 0px 10px 1px #bf0000;
+            transform: scale(1.05);
+        }
+
+        img {
+            width: 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <h1>Добро пожаловать на <a style="color:red">ClassicBox</a>!</h1>
+        <p>ClassicBox — Это крутой сервер с добрым комьюнити в такой игре как Garry's Mod. Будем рады если вы
+            присоединитесь
+            к нам!</p>
+        <a href="#" class="main-button">Присоединиться</a>
+    </div>
+    <div class="footer-buttons">
+        <a href="rules.html" class="footer-button">Правила</a>
+        <a href="#" class="discord-button"><img src="discord.png"></a>
+        <a href="loadscreen.html" class="footer-button">Загрузочный экран</a>
+    </div>
+
+</body>
+
+</html>
